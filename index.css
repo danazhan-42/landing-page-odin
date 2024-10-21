@@ -3,21 +3,27 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  color: #E5E7EB;
   flex: 1;
-  margin: 0
+  margin: 0;
+  max-height: 100vh;
+  box-sizing: border-box;
 }
 
 .header {
   background-color: #1F2937;
   padding: 0 120px 100px 120px;
+  color: #E5E7EB;
 }
 
+
 .nav {
+  background-color: #1F2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 52px;
+  position: sticky;
+  top: 0;
 }
 
 .intro {
@@ -36,12 +42,11 @@ body {
 }
 
 
-
 #header-signup {
   margin-top: 20px;
   padding: 8px 32px;
-  background-color: #24a0ed;
-  border-radius: 8px;
+  background-color: #3882F6;
+  border-radius: 10px;
   border: none;
   color: #FFFFFF;
 }
@@ -71,3 +76,41 @@ a {
   padding: 0
 }
 
+/* information section */
+.information {
+  padding: 20px 150px;
+  text-align: center;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  padding-top: 20px
+}
+.card-container {
+  display: flex;
+  margin-top: 40px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card-container .text {
+  width: 140px;
+  color: #1F2937;
+  font-weight: lighter;
+}
+
+.img-holder {
+  height: 140px;
+  width: 140px;
+  border: 2px  #3882F6 solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
