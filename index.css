@@ -10,7 +10,7 @@ body {
 
 .header {
   background-color: #1F2937;
-  padding: 0 120px 52px 120px;
+  padding: 0 120px 100px 120px;
 }
 
 .nav {
@@ -29,11 +29,17 @@ body {
 
 .intro-image {
   background-color:#A9A9A9 ;
-  width: 100%;
+  width: 80%;
+  text-align: center;
 }
 
 #header-signup {
   margin-top: 20px;
+  padding: 8px 32px;
+  background-color: #24a0ed;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
 }
 
 .logo {
