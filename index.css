@@ -30,8 +30,12 @@ body {
 .intro-image {
   background-color:#A9A9A9 ;
   width: 80%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 #header-signup {
   margin-top: 20px;
